@@ -1,90 +1,67 @@
-📊 Fitbit Fitness Tracker Data Analysis (Capstone Project)
-📌 Project Overview
-This capstone project analyzes Fitbit fitness tracker data to identify user activity patterns, sleep quality, and calorie expenditure trends.
-The goal is to generate data-driven insights that can help improve user engagement and inform product or wellness recommendations.
-This project simulates a real-world business scenario where a data analyst supports health and fitness decision-making using wearable data.
+🔹 Bellabeat Wellness Analysis
+Portfolio Case Study | Data Analyst
 ________________________________________
-🎯 Business Questions
-•	How active are users on a daily and weekly basis?
-•	Is there a relationship between steps taken and calories burned?
-•	How efficient is users’ sleep, and how does it vary over time?
-•	What trends can be observed in activity and sleep behavior?
+1. Business Context
+Bellabeat is a health-focused technology company that designs smart devices for women.
+The marketing team wants to better understand user behavior patterns to improve engagement, retention, and personalized wellness features.
+Objective:
+Use smart device data to identify activity and sleep trends and translate them into data-driven business recommendations.
 ________________________________________
-📁 Dataset
-•	Source: Fitbit Fitness Tracker Data (public dataset)
-•	Time Period: April 2016 – May 2016
-•	Data Type: Daily activity, sleep, and calorie metrics
-•	Limitations:
-o	Short time range (≈ 1 month)
-o	No demographic data (age, gender, weight)
-o	Self-tracked wearable data may contain inconsistencies
+2. Data Overview
+Source: Fitbit Fitness Tracker Data (Kaggle)
+Period: 31 days
+Users: 30 participants
+Datasets used:
+•	Daily activity data (steps, calories, activity minutes)
+•	Sleep tracking data (time asleep, time in bed)
+Tools:
+•	Excel (data cleaning, pivot tables, analysis, visualization)
 ________________________________________
-🛠️ Tools & Technologies
-•	Excel 2016
-o	Data cleaning
-o	Calculations & formulas
-o	Pivot tables
-o	Visualizations
-•	SQL (Google BigQuery)
-o	Filtering and cleaning data
-o	Aggregations and summaries
-•	R
-o	Data manipulation
-o	Exploratory analysis
-•	Data Visualization
-o	Line charts
-o	Bar charts
-o	Trendlines
-o	Reference lines
+3. Data Preparation
+Key preparation steps:
+•	Removed duplicate records
+•	Standardized date formats
+•	Calculated sleep duration in hours
+•	Created activity level categories (Low / Moderate / High)
+Limitations:
+•	Small sample size
+•	Short time period
+•	No demographic information
+•	Data not exclusive to Bellabeat users
 ________________________________________
-🧹 Data Cleaning & Preparation
-Key cleaning steps included:
-•	Removing duplicate records
-•	Handling missing and inconsistent values
-•	Standardizing date formats
-•	Verifying numeric data types
-•	Separating combined columns (e.g., date and day of week)
+4. Analysis & Insights
+🏃 Activity Patterns
+•	Most users average fewer than 10,000 steps per day
+•	A high proportion of users fall into Good to moderate activity levels
+•	positive relationship between steps taken and calories burned
+😴 Sleep Patterns
+•	Average sleep duration is below the recommended 7–8 hours
+•	Many users spend more time in bed than asleep, indicating sleep quality challenges
+•	More active users tend to experience slightly longer sleep duration
 ________________________________________
-📐 Key Calculations
-•	Average daily steps
-•	Average calories burned per day
-•	Sleep efficiency
-•	Sleep Efficiency = (Total Minutes Asleep / Total Minutes in Bed) × 100
-•	7-day moving averages to identify trends
-•	Trendlines and R² values to assess strength of relationships
+5. Business Recommendations
+1️⃣    Personalized Activity Targets
+Use historical step data to assign realistic daily goals instead of a fixed 10,000-step target.
+2️⃣   Sedentary Time Alerts
+Introduce gentle movement reminders when prolonged inactivity is detected.
+3️⃣   Sleep Coaching Features
+Provide insights when users consistently sleep less than 7 hours, including bedtime reminders and recovery tips.
+4️⃣   Weekly Wellness Reports
+Shift focus from daily metrics to weekly trend summaries to encourage sustainable behavior change.
 ________________________________________
-📊 Analysis & Visualizations
-The analysis focused on:
-•	Daily and weekly activity trends
-•	Relationship between steps and calories burned
-•	Sleep efficiency over time
-•	Identifying periods of higher and lower engagement
-Visualizations were designed to be clear, interview-ready, and easy for non-technical stakeholders to interpret.
+6. Business Impact
+If implemented, these recommendations could:
+•	Increase daily user engagement
+•	Improve habit formation
+•	Reduce app abandonment
+•	Strengthen Bellabeat’s value as a wellness companion
 ________________________________________
-🔍 Key Insights
-•	Users who consistently take more steps tend to burn more calories, showing a strong positive correlation
-•	Activity levels fluctuate throughout the week, with noticeable peaks and dips
-•	Sleep efficiency varies significantly between users and across days
-•	Sustained activity (not just one-day spikes) is associated with better overall performance metrics
-________________________________________
-💡 Recommendations
-•	Encourage users to maintain consistent daily activity rather than short bursts
-•	Introduce sleep improvement prompts for users with low sleep efficiency
-•	Use weekly trends to personalize fitness and wellness suggestions
-•	Leverage activity consistency as a key engagement metric
-________________________________________
-🚀 Next Steps
-•	Include a longer time range for stronger trend analysis
-•	Integrate demographic data to improve personalization
-•	Build a dashboard for real-time user insights
-•	Apply predictive modeling to forecast activity and sleep patterns
-________________________________________
-📎 Project Deliverables
-•	Cleaned datasets
-•	SQL queries
-•	Excel workbooks with calculations and charts
-•	Visual analysis and documented insights
-________________________________________
+7. Next Steps 
+Perform SQL-based analysis for scalability
+•	Segment users by behavior patterns
+•	Analyze long-term trends across multiple months
+•	Integrate demographic data for deeper personalization
+Perform R-based analysis for advance visualization. 
 👤 About Me
 I am an aspiring Data Analyst with hands-on experience in Excel, SQL, and R, focused on transforming raw data into meaningful insights.
 This capstone demonstrates my ability to clean data, analyze trends, and communicate results clearly for business decision-making.
@@ -92,3 +69,5 @@ ________________________________________
 📬 Contact
 •	GitHub: (https://github.com/mhyo3ui/fitbit-data-analysis-capstone)
 •	LinkedIn: (https://www.linkedin.com/in/almahi-ahmed-095882125/)
+
+
